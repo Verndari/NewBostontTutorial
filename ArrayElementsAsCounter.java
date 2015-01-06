@@ -6,11 +6,11 @@ public class ArrayElementsAsCounter {
 
 	public static void main(String[] args) {
 		
-		Random rand = new Random();							// Define a random number
-		int freq[] = new int[7];							// Create a frequency integer
+		Random rand = new Random();					// Define a random number
+		int freq[] = new int[7];					// Create a frequency integer
 		
-		for(int roll=1;roll<1000;roll++) {					// Create a for loop that rolls thousand times a dice
-			++freq[1+rand.nextInt(6)];					 	// Added +1 to the Index of freq. and instead of 0 to 5 we add a +1 to count him from 1 to 6
+		for(int roll=1;roll<1000;roll++) {				// Create a for loop that rolls thousand times a dice
+			++freq[1+rand.nextInt(6)];				// Added +1 to the Index of freq. and instead of 0 to 5 we add a +1 to count him from 1 to 6
 		}
 		
 		System.out.println("Face\tFrequency");				// Print out an Header to the console
@@ -21,10 +21,10 @@ public class ArrayElementsAsCounter {
 				
 	}
 }
-//																Face	Frequency
-//																1		182
-//																2		154
-//																3		186
-//																4		164
-//																5		164
-//																6		149
+//										Face	Frequency
+//										1	182
+//										2	154
+//										3	186
+//										4	164
+//										5	164
+//										6	149
